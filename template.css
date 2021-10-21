@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+main{
+    background-color: #67A9F3;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 25vh;
+}
+/* sol üst*/
+#header-left{
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #F6F8FC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 20vh;
+    align-items: center;
+}
+.header-left-item1{
+    width: 80%;
+    background-color: #67A9F3;
+    height: 15%;
+}
+.header-left-item2{
+    width: 80%;
+    background-color: #67A9F3;
+    margin-top: 2%;
+    height: 10%;
+}
+.header-left-item3{
+    width: 20%;
+    background-color: #67A9F3;
+    margin-top: 4%;
+    height: 18%;
+
+    
+}
+/*sol orta*/
+#container{
+    background-color: #67A9F3;;
+    width: auto;
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+#header-middle{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-left: 5%;
+    background-color: #F6F8FC;
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#circle{
+    background-color: #67A9F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    
+}
+#triangle{
+    width: 0;
+	height: 0;
+    transform: rotate(90deg);
+    margin-left: 4px;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-bottom: 2em solid white;
+
+
+    
+}
+/* orta sag*/
+
+#top-right{
+    background-color: #67A9F3;
+    margin-left: 5%;
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#top-right div{
+    width: 80%;
+    height: 3vh;
+    background-color: white;
+    margin:5px;
+}
+/* orta sag*/
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #67A9F3;
+    width: 25%;
+    height: 90%;
+}
+.picture1{
+    background-color: #67A9F3;
+    width: 45%;
+    height: 90%;
+}
+
+.picture2{
+    background-color: #67A9F3;
+    width: 30%;
+    height: 90%;
+}
+
+.cerceve{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80%;
+    width: 60%;
+    border-radius:10px;
+    justify-content: space-around;
+}
+#speaker{
+
+    border-radius: 2px;
+    background-color: #67A9F3;
+    height: 5px;
+    width: 30px;
+}
+
+#screen{
+    background-color: #67A9F3;
+    height: 200px;
+    width: 80%;
+    border-radius: 5px;
+}
+#button-circle{
+    border: 1px solid #67A9F3;
+
+    background-color: white;
+    width: 30px;
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 50%;
+}
+/* orta orta*/
+
+#table{
+    margin-top: 30px;
+    margin-left: 20%;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80%;
+    width: 60%;
+    border-radius:10px;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 800%;
+}
+/*orta sag*/
+#table2{
+    margin-top: 30px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80%;
+    width: 70%;
+    border-radius:10px;
+
+}
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 800%;
+}
+/* alt sol*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    width: 100%;
+    font-size: 40px;
+}
+progress{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.icons{
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+    color: white;
+
+}
+
+#progress-out{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+}
+div i{
+    color:  #67A9F3;
+    font-size: 160px;
+
+
+}
